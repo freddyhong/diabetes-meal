@@ -11,8 +11,8 @@ const Navigation: React.FC<NavigationProps> = ({
   onPageChange,
 }) => {
   const pages = [
-    { id: "guide", label: "Food Guide", icon: "📊" },
-    { id: "pamphlet", label: "Pamphlet", icon: "📄" },
+    { id: "guide", label: "Food Guide" },
+    { id: "pamphlet", label: "Pamphlet" },
   ];
 
   return (
@@ -22,7 +22,7 @@ const Navigation: React.FC<NavigationProps> = ({
           {/* Logo/Title */}
           <div className="flex items-center">
             <h1 className="text-xl font-bold text-gray-800">
-              🏥 Diabetes Korean Food Guide
+              Diabetes Korean Food Guide
             </h1>
           </div>
 
@@ -38,7 +38,6 @@ const Navigation: React.FC<NavigationProps> = ({
                     : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
                 }`}
               >
-                <span>{page.icon}</span>
                 <span>{page.label}</span>
               </button>
             ))}
