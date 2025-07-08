@@ -1,0 +1,484 @@
+{
+  "mealPhoto": "/assets/korean/meal/korean_meal_1.jpg",
+  "dishes": [
+    {
+      "image": "/assets/korean/dish/kimchi.jpg",
+      "nameKr": "배추김치",
+      "nameEn": "Kimchi",
+      "nutrition": ["Low calories", "High fiber", "Probiotics"],
+      "full_nutrition": [
+        "1.580g",
+        "0.700g",
+        "0.660g",
+        "0.500g"
+      ],
+      "frequency": "often",
+      "type": "Side Dish",
+      "suggestion": ""
+    },
+    {
+      "image": "/assets/korean/dish/soybean_soup.jpg",
+      "nameKr": "된장찌개",
+      "nameEn": "Soybean Stew (Dwenjang-jjigae)",
+      "nutrition": ["Low fat", "High sodium", "Rich in protein"],
+      "full_nutrition": [
+        "16.770g",
+        "3.800g",
+        "15.010g",
+        "3.200g"
+      ],
+      "suggestion": "",
+      "frequency": "moderation",
+      "type": "Soup/Stew",
+      "warning": "⚠️ High Sodium"
+    },
+    {
+        "image": "/assets/korean/dish/radish_soup.jpg",
+        "nameEn": "Beef Radish Soup",
+        "nameKr": "소고기무국",
+        "full_nutrition": [
+            "12.070g",
+            "1.650g",
+            "16.430g",
+            "1.400g"
+        ],
+        "nutrition": ["Low calories", "High protein"],
+        "frequency": "often",
+        "type": "Soup/Stew",
+        "suggestion": "For stews/soups, focus on eating the toppings rather than the broth.",
+        "warning": ""
+    },
+    {
+        "image": "/assets/korean/dish/seaweed_soup.jpg",
+        "nameEn": "Beef Seaweed Soup",
+        "nameKr": "소고기미역국",
+        "frequency": "often",
+        "full_nutrition": [
+            "16.080g",
+            "0.780g",	
+            "15.060g",
+            "1.500g"
+        ],
+        "type": "Soup/Stew",
+        "nutrition": ["Low calories", "High protein"],
+        "suggestion": "For stews/soups, focus on eating the toppings rather than the broth.",
+        "warning": ""
+    },
+    {
+        "image": "/assets/korean/dish/seasoned_soybean_sprouts.jpg",
+        "nameEn": "Seasoned Soybean Sprouts",
+        "nameKr": "콩나물무침",
+        "nutrition": ["High fiber"],
+        "full_nutrition": [
+            "5.990g",	
+            "1.970g",	
+            "2.310g",	
+            "1.900g"
+        ],
+        "frequency": "often",
+        "suggestion": "",
+        "warning": "",
+        "type": "Side Dish"
+    },
+    {
+        "image": "/assets/korean/dish/seasoned_spinach.jpg",
+        "nameEn": "Seasoned Spinach",
+        "nameKr": "시금치무침",
+        "nutrition": ["High fiber"],
+        "full_nutrition": [
+            "7.250g",
+            "0.960g",
+            "3.220g",
+            "2.600g"
+        ],
+        "frequency": "often",
+        "suggestion": "",
+        "warning": "",
+        "type": "Side Dish"
+    },
+    {
+        "image": "/assets/korean/dish/rolled_egg.jpg",
+        "nameEn": "Rolled Egg",
+        "nameKr": "계란말이",
+        "nutrition": ["High protein"],
+        "full_nutrition": [
+            "2.610g",
+            "1.120g",
+            "10.180g",
+            "0.700g"
+        ],
+        "frequency": "often",
+        "suggestion": "",
+        "warning": "",
+        "type": "Side Dish"
+    },
+    {
+        "image": "/assets/korean/dish/bulgogi.jpg",
+        "nameEn": "Bulgogi",
+        "nameKr": "불고기",
+        "nutrition": ["High protein", "Moderate fat"],
+        "full_nutrition": [
+            "4.920g",
+            "2.390g",
+            "16.130g",
+            "0.900g"
+        ],
+        "frequency": "often",
+        "suggestion": "For marinades, watch the amount of sugar, and try replacing sugar content with an onion + kiwi asian pear mixture.",
+        "warning": "",
+        "type": "Meat"
+    },
+    {
+        "image": "/assets/korean/dish/braised_tofu.jpg",
+        "nameEn": "Braised Tofu",
+        "nameKr": "두부조림",
+        "nutrition": ["High protein", "Low calories"],
+        "full_nutrition": [
+            "2.510g",
+            "0.940g",
+            "6.420g",
+            "0.300g"
+        ],
+        "frequency": "often",
+        "suggestion": "",
+        "warning": "",
+        "type": "Side Dish"
+    },
+    {
+        "image": "/assets/korean/dish/brown_rice.jpg",
+        "nameEn": "Brown Rice",
+        "nameKr": "현미밥",
+        "nutrition":[],
+        "full_nutrition": [
+            "32.830g",
+            "0.000g",
+            "3.000g",
+            "0.800g"
+        ],
+        "frequency": "often",
+        "suggestion": "Try to replace white rice with brown or a 50:50 mix of both.",
+        "warning": "",
+        "type": "Rice/Noodle"
+    },
+    {
+        "image": "/assets/korean/dish/vegetable_kimbap.jpg",
+        "nameEn": "Vegetable Kimbap",
+        "nameKr": "야채김밥",
+        "nutrition": ["High fiber", "Low calories"],
+        "full_nutrition": [
+            "57.000g",
+            "0.000g",
+            "7.000g",
+            "6.000g"
+        ],
+        "frequency": "often",
+        "suggestion": "",
+        "warning": "",
+        "type": "Snack"
+    },
+    {
+        "image": "/assets/korean/dish/boiled_pork.jpg",
+        "nameEn": "Boiled Pork",
+        "nameKr": "수육",
+        "nutrition": ["High protein", "Moderate fat"],
+        "full_nutrition": [
+            "1.590g",
+            "0.980g",
+            "20.910g",
+            "0.200g"
+        ],
+        "frequency": "often",
+        "suggestion": "Pair fatty foods like samgyeopsal with vegetables and limit sauces like ssamjang.",
+        "warning": "",
+        "type": "Meat"
+    },
+    {
+        "image": "/assets/korean/dish/grilled_mackerel.jpg",
+        "nameEn": "Grilled Mackerel",
+        "nameKr": "고등어구이",
+        "nutrition": ["High protein"],
+        "full_nutrition": [
+            "0.350g",
+            "0.000g",
+            "17.590g",
+            "0.000g"
+        ],
+        "frequency": "often",
+        "suggestion": "",
+        "warning": "",
+        "type": "Meat"
+    },
+    {
+        "image": "/assets/korean/dish/pork_kimchi_stew.jpg",
+        "nameEn": "Braised Pork Kimchi Stew",
+        "nameKr": "김치찜",
+        "nutrition": ["High protein", "High sodium"],
+        "full_nutrition": [
+            "13.160g",
+            "8.550g",
+            "34.870g",
+            "1.800g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "For stews/soups, focus on eating the toppings rather than the broth.",
+        "warning": "⚠️ High Sodium",
+        "type": "Soup/Stew"
+    },
+    {
+        "image": "/assets/korean/dish/kimchi_stew.jpg",
+        "nameEn": "Kimchi Stew",
+        "nameKr": "김치찌개",
+        "nutrition": ["High sodium"],
+        "full_nutrition": [
+            "6.470g",
+            "1.770g",
+            "7.510g",
+            "1.400g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "For stews/soups, focus on eating the toppings rather than the broth.",
+        "warning": "⚠️ High Sodium",
+        "type": "Soup/Stew"
+    },
+    {
+        "image": "/assets/korean/dish/sundae_soup.jpg",
+        "nameEn": "Sundae Soup with Rice",
+        "nameKr": "순대국밥",
+        "nutrition": ["High protein", "High sodium"],
+        "full_nutrition": [
+            "42.610g",
+            "0.470g",
+            "23.090g",
+            "0.800g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "For stews/soups, focus on eating the toppings rather than the broth.",
+        "warning": "⚠️ High Sodium",
+        "type": "Soup/Stew"
+    },
+    {
+        "image": "/assets/korean/dish/white_rice.jpg",
+        "nameEn": "White Rice",
+        "nameKr": "백미밥",
+        "nutrition": ["High carbohydrates"],
+        "full_nutrition": [
+            "61.000g",
+            "0.000g",
+            "5.000g",
+            "0.000g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "Try to replace white rice with brown or a 50:50 mix of both.",
+        "warning": "",
+        "type": "Rice/Noodle"
+    },
+    {
+        "image": "/assets/korean/dish/kalguksu.jpg",
+        "nameEn": "Kalguksu",
+        "nameKr": "칼국수",
+        "nutrition": ["High carbohydrates"],
+        "full_nutrition": [
+            "71.740g",
+            "3.560g",
+            "16.040g",
+            "7.400g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "",
+        "warning": "",
+        "type": "Rice/Noodle"
+    },
+    {
+        "image": "/assets/korean/dish/jjampong.jpg",
+        "nameEn": "Jjampong",
+        "nameKr": "짬뽕",
+        "nutrition": ["High carbohydrates"],
+        "full_nutrition": [
+            "133.560g",
+            "3.240g",
+            "28.790g",
+            "3.200g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "",
+        "warning": "",
+        "type": "Rice/Noodle"
+    },
+    {
+        "image": "/assets/korean/dish/hongcho.jpg",
+        "nameEn": "Hongcho",
+        "nameKr": "홍초",
+        "nutrition": ["Low sugar"],
+        "full_nutrition": [
+            "6.000g",
+            "0.000g",
+            "0.000g",
+            "1.000g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "Replace sweet drinks with Hongcho and water (or sparkling water to replicate carbonated drinks); limit to 1–2 glasses a day.",
+        "warning": "",
+        "type": "Drink"
+    },
+    {
+        "image": "/assets/korean/dish/stir_fried_fish_cake.jpg",
+        "nameEn": "Stir-fried Fish Cake",
+        "nameKr": "오뎅볶음",
+        "nutrition": ["High sodium"],
+        "full_nutrition": [
+            "14.480g",
+            "1.520g",
+            "7.200g",
+            "1.800g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "",
+        "warning": "⚠️ High Sodium",
+        "type": "Side Dish"
+    },
+    {
+        "image": "/assets/korean/dish/samgyeopsal.jpg",
+        "nameEn": "Samgyeopsal",
+        "nameKr": "삼겹살",
+        "nutrition": ["High protein"],
+        "full_nutrition": [
+            "0.620g",
+            "0.000g",
+            "18.210g",
+            "0.000g"
+        ],
+        "frequency": "moderation",
+        "suggestion": "Pair fatty foods like samgyeopsal with vegetables and limit sauces like ssamjang.",
+        "warning": "",
+        "type": "Meat"
+    },
+    {
+        "image": "/assets/korean/dish/jajangmyeon.jpg",
+        "nameEn": "Jajangmyeon",
+        "nameKr": "짜장면",
+        "nutrition": ["High carbohydrates", "High added sugar"],
+        "full_nutrition": [
+            "129.410g",
+            "6.560g",
+            "26.810g",
+            "13.800g"
+        ],
+        "frequency": "limit",
+        "suggestion": "",
+        "warning": "",
+        "type": "Rice/Noodle"
+    },
+    {
+        "image": "/assets/korean/dish/tteokbokki.jpg",
+        "nameEn": "Tteokbokki",
+        "nameKr": "떡볶이",
+        "nutrition": ["High carbohydrates", "High added sugar"],
+        "full_nutrition": [
+            "60.420g",
+            "6.630g",
+            "6.970g",
+            "5.700g"
+        ],
+        "frequency": "limit",
+        "suggestion": "",
+        "warning": "",
+        "type": "Snack"
+    },
+    {
+        "image": "/assets/korean/dish/sweet_sour_pork.jpg",
+        "nameEn": "Sweet and Sour Pork",
+        "nameKr": "탕수육",
+        "nutrition": ["High added sugar"],
+        "full_nutrition": [
+            "21.580g",
+            "7.080g",
+            "9.000g",
+            "0.600g"
+        ],
+        "frequency": "limit",
+        "suggestion": "",
+        "warning": "",
+        "type": "Meat"
+    },
+    {
+        "image": "/assets/korean/dish/choco_pie.jpg",
+        "nameEn": "Choco Pie",
+        "nameKr": "초코파이",
+        "nutrition": ["High added sugar"],
+        "full_nutrition": [
+            "23.000g",
+            "12.000g",
+            "2.000g",
+            "0.000g"
+        ],
+        "frequency": "limit",
+        "suggestion": "",
+        "warning": "",
+        "type": "Snack"
+    },
+    {
+        "image": "/assets/korean/dish/injeolmi.jpg",
+        "nameEn": "Injeolmi Rice Cake",
+        "nameKr": "인절미",
+        "nutrition": [],
+        "full_nutrition": [
+            "37.620g",
+            "1.780g",
+            "7.820g",
+            "3.100g"
+        ],
+        "frequency": "limit",
+        "suggestion": "",
+        "warning": "",
+        "type": "Snack"
+    },
+    {
+        "image": "/assets/korean/dish/maesil_tea.jpg",
+        "nameEn": "Masiel Tea",
+        "nameKr": "매실차",
+        "nutrition": ["High added sugar"],
+        "full_nutrition": [
+            "15.460g",
+            "14.220g",
+            "0.510g",
+            "0.900g"
+        ],
+        "frequency": "limit",
+        "suggestion": "",
+        "warning": "",
+        "type": "Drink"
+    },
+    {
+        "image": "/assets/korean/dish/instant_coffee.jpg",
+        "nameEn": "Instant Coffee",
+        "nameKr": "믹스커피",
+        "nutrition": ["High added sugar"],
+        "full_nutrition": [
+            "9.000g",
+            "6.000g",
+            "0.000g",
+            "0.000g"
+        ],
+        "frequency": "limit",
+        "suggestion": "",
+        "warning": "",
+        "type": "Drink"
+    },
+    {
+        "image": "/assets/korean/dish/shin_ramen.jpg",
+        "nameEn": "Shin Ramen",
+        "nameKr": "신라면",
+        "nutrition": ["High sodium"],
+        "full_nutrition": [
+            "79.000g",
+            "4.000g",
+            "10.000g",
+            "0.000g"
+        ],
+        "frequency": "limit",
+        "suggestion": "",
+        "warning": "⚠️ High Sodium",
+        "type": "Rice/Noodle"
+    }
+  ]
+}
