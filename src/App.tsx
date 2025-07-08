@@ -1,5 +1,5 @@
 // App.tsx
-import React, { useState } from "react";
+import { useState } from "react";
 import KoreanMeal from "./pages/KoreanMeal";
 import DiabetesPamphlet from "./pages/Pamphlet"; // You'll need to create this
 import Navigation from "./components/Navigation"; // You'll need to create this

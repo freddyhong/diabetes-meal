@@ -1,58 +1,7 @@
 import React from "react";
 import mealData from "../data/koreanMeal.json";
 
-interface DishItemProps {
-  nameKr: string;
-  nameEn: string;
-  nutrition?: string[];
-  warning?: string;
-}
-
-const DishItem: React.FC<DishItemProps> = ({
-  nameKr,
-  nameEn,
-  nutrition,
-  warning,
-}) => (
-  <div className="mb-2 text-sm">
-    <div className="font-medium text-gray-800">{nameKr}</div>
-    <div className="text-gray-600 text-xs italic">{nameEn}</div>
-    {nutrition && nutrition.length > 0 && (
-      <div className="text-xs text-gray-500 mt-1">{nutrition.join(", ")}</div>
-    )}
-    {warning && <div className="text-xs text-red-600 mt-1">{warning}</div>}
-  </div>
-);
-
-const CategoryIcon: React.FC<{ type: string }> = ({ type }) => {
-  const iconMap: { [key: string]: string } = {
-    "Soup/Stew": "🍲",
-    "Rice/Noodle": "🍚",
-    "Side Dish": "🥬",
-    Meat: "🥩",
-    Snack: "🍪",
-    Drink: "🥤",
-  };
-
-  return <span className="text-2xl mr-2">{iconMap[type] || "🍽️"}</span>;
-};
-
 const DiabetesPamphlet: React.FC = () => {
-  const categories = [
-    { label: "Soup / Stew", type: "Soup/Stew" },
-    { label: "Rice / Noodle", type: "Rice/Noodle" },
-    { label: "Side Dish", type: "Side Dish" },
-    { label: "Meat", type: "Meat" },
-    { label: "Snack", type: "Snack" },
-    { label: "Drink", type: "Drink" },
-  ];
-
-  const getDishesInCategory = (category: string, frequency: string) => {
-    return mealData.dishes.filter(
-      (dish) => dish.type === category && dish.frequency === frequency
-    );
-  };
-
   return (
     <div
       className="w-full bg-white text-black"
